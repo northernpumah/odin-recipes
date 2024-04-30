@@ -1,0 +1,59 @@
+body {
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+}
+
+.h1 {
+    background-color: rgb(230, 207, 6);
+    display: block;
+    text-align: center;
+    color: rgb(255, 0, 234);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#waterhp,
+#milkhp,
+#egghp {
+    width: 100px;
+    height: 100px;
+}
+
+.egglist,
+.waterlist,
+.milklist {
+    background-color: rgb(233, 136, 9);
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+.hwater {
+    text-align: center;
+}
+.mh1 {
+    background-color: yellow;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(209, 53, 230);
+}
+.mh2 {
+    color: brown;
+    background-color: pink;
+    font-weight: 900;
+}
+.link-homepage {
+    color: gold;
+    font-weight: 100;
+}
+
+#mimg {
+    height: 250px;
+    width: 250px;
+}
+
+.description.milk {
+    color: green;
+}
+.milk.items,
+.milk.steps {
+    color: crimson;
+}
