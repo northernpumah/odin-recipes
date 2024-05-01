@@ -10,17 +10,25 @@ body {
     font-size: 32px;
     font-weight: bold;
 }
+.center-list {
+    background-color: rgb(223, 125, 166);
+    text-align: center;
 
+}
 #waterhp,
 #milkhp,
 #egghp {
+    display: block;
     width: 100px;
     height: 100px;
+    margin: 0px auto;
 }
 
 .egglist,
 .waterlist,
 .milklist {
+    border: 2px solid rgb(31, 143, 163);
+    display: block;
     background-color: rgb(233, 136, 9);
     color: white;
     font-size: 28px;
