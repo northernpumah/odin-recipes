@@ -11,7 +11,7 @@ body {
     font-weight: bold;
 }
 .center-list {
-    background-color: rgb(223, 125, 166);
+    background-color: rgb(255, 255, 255);
     text-align: center;
 
 }
@@ -23,7 +23,9 @@ body {
     height: 100px;
     margin: 0px auto;
 }
-
+.eggbox {
+   margin-bottom: 4px;
+}
 .egglist,
 .waterlist,
 .milklist {
@@ -64,4 +66,10 @@ body {
 .milk.items,
 .milk.steps {
     color: crimson;
+}
+
+.centeregg {
+    background-color: seashell;
+    text-align: center;
+    display: block;
 }
